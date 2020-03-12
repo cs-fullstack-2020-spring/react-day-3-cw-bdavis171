@@ -1,0 +1,22 @@
+.fav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+  }
+  .fav h1 {
+      grid-column: 1/3;
+      grid-row: 1;
+  }
+  
+  .movie-list {
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px solid black;
+  }
+  
+  .album-list {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid black;
+  }
